@@ -57,7 +57,7 @@ export default function App() {
   const classes = useStyles();
 
   return (
-    <Container disableGutters={true}>
+    <Container disableGutters={true} maxWidth={false}>
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
